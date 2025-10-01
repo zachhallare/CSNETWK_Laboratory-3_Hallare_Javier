@@ -1,3 +1,6 @@
+# Made By: Zach Benedict I. Hallare & David Lorenz Javier
+# CSNETWK - S11
+
 import socket
 import threading
 import random

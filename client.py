@@ -2,11 +2,11 @@ import socket
 import random
 
 # server configuration
-HOST = "192.168.0.88"  # server IP
+HOST = "127.0.0.1"  # server IP
 PORT = 5050         # server port
 
-CLIENT_NAMES = ["David Javier", "Zach Hallare"]  # client names chooses one randomly each run
-CLIENT_NAME = random.choice(CLIENT_NAMES)    
+CLIENT_NAMES = ["David Javier", "Zach Hallare"]  # client names chooses one randomly each run  
+CLIENT_NAME = random.choice(CLIENT_NAMES) 
 
 def main():
     """
@@ -20,7 +20,8 @@ def main():
         - If valid, display the client info, server, info, and their sum.
         - If invalid, client will also terminate.
     5. Close the connection before exiting.
-    """
+    """ 
+
     sock = None
     try:
         # Get integer input

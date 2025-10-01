@@ -2,7 +2,7 @@ import socket
 import threading
 import random
 
-HOST = "192.168.0.88"  # localhost
+HOST = "127.0.0.1"  # localhost
 PORT = 5050         
 SERVER_NAME = "Server of mga Pogi" 
 
